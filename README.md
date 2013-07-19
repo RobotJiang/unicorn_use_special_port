@@ -5,8 +5,9 @@ TODO: Write a gem description
 ## Installation
 
 Add this line to your application's Gemfile:
-
-    gem 'unicorn_use_special_port'
+		group :production do
+    	gem 'unicorn_use_special_port'
+		end
 
 And then execute:
 
@@ -18,7 +19,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this lines to your config/environments/production.rb
+		
+		UnicornUseSpecialPort::BaseConfig.setup do |config|
+			config[:port]= xxxx #use your custom port, like : 8080
+	  end	
 
 ## Contributing
 

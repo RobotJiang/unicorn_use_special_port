@@ -6,10 +6,10 @@ require 'unicorn_use_special_port/version'
 Gem::Specification.new do |spec|
   spec.name          = "unicorn_use_special_port"
   spec.version       = UnicornUseSpecialPort::VERSION
-  spec.authors       = ["Raymond Jiang"]
-  spec.email         = ["Raymond.Jiang@activenewwork.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Robot Jiang"]
+  spec.email         = ["robot.z.jiang@gmail.com"]
+  spec.description   = %q{Let unicorn use a special port on production.}
+  spec.summary       = %q{Let unicorn use a special port on production.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
