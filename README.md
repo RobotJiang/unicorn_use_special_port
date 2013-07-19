@@ -1,12 +1,11 @@
 ## Description    
 
-	If your rails app running on a special port(none 80 port) under Nginx + Unicorn.     
-	then all redirect action in your rails app will be leaded to http 80 port, this may be not you want. 
+If your rails app running on a special port(none 80 port) under Nginx + Unicorn.     
+then all redirect action in your rails app will be leaded to http 80 port, this may be not you want. 
 
-	When you deploy rails use Nginx + Unicorn, but you want to use a special port (e.g. 8080, 3000, and so on).
+When you deploy rails use Nginx + Unicorn, but you want to use a special port (e.g. 8080, 3000, and so on).
 
-	To use this gem, to config a special port in your production.rb file, above all problems will be resolved.
-
+To use this gem, to config a special port in your production.rb file, above all problems will be resolved.
 
 Add this line to your application's Gemfile:
 		group :production do
