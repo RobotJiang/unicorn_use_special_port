@@ -24,9 +24,9 @@ Or install it yourself as:
 
 Add this lines to your config/environments/production.rb
 		
-		UnicornUseSpecialPort::BaseConfig.setup do |config|     
-			config[:port]= xxxx #use your custom port, like : 8080     
-		end	   
+	UnicornUseSpecialPort::BaseConfig.setup do |config|     
+		config[:port]= xxxx #use your custom port, e.g. : 8080     
+	end	   
 
 ## Contributing
 
